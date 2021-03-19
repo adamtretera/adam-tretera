@@ -1,0 +1,1 @@
+{"ast":null,"code":"import { jsx as _jsx } from \"react/jsx-runtime\";\nimport { Fragment as _Fragment } from \"react/jsx-runtime\";\nexport default function Post(_ref) {\n  var postData = _ref.postData;\n  return /*#__PURE__*/_jsx(_Fragment, {});\n}","map":null,"metadata":{},"sourceType":"module"}

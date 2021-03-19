@@ -1,0 +1,1 @@
+{"ast":null,"code":"export default {\n  hero: 'Ahoj kamaradi?'\n};","map":{"version":3,"sources":["/Users/adamtretera/next-js-ts-fomo/locales/cs.js"],"names":["hero"],"mappings":"AAAA,eAAe;AACXA,EAAAA,IAAI,EAAE;AADK,CAAf","sourcesContent":["export default {\n    hero: 'Ahoj kamaradi?',\n\n};"]},"metadata":{},"sourceType":"module"}
