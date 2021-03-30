@@ -1,1 +1,0 @@
-{"ast":null,"code":"export default {\n  hero: 'Hello my friends?'\n};","map":{"version":3,"sources":["/Users/adamtretera/next-js-ts-fomo/locales/en.js"],"names":["hero"],"mappings":"AAAA,eAAe;AACXA,EAAAA,IAAI,EAAE;AADK,CAAf","sourcesContent":["export default {\n    hero: 'Hello my friends?',\n\n};"]},"metadata":{},"sourceType":"module"}
