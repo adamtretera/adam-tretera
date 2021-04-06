@@ -1,4 +1,3 @@
 export default {
-    hero: 'Hello my friends?',
-
+  hero: 'We enable developers to build and publish wonderful things'
 };

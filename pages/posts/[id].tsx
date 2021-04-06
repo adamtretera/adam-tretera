@@ -1,10 +1,5 @@
-
-import Head from 'next/head'
+import Head from "next/head";
 
 export default function Post({ postData }) {
-  return (
-   <>
-   </>
-  )
+  return <></>;
 }
-

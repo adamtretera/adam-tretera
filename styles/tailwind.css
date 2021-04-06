@@ -4,77 +4,34 @@
 @tailwind components;
 @tailwind utilities;
 @layer utilities {
-    .h-50 {
-        height: 50px;
-    }
-    .w-300 {
-        width: 300px;
-    }
-    .border-1 {
-        border:1px
-    }
-    .top-60{
-        top:60px
-    }
-    .content-area {
-        min-height: calc(100vh - 10rem);
-    }
-
+  .border-1 {
+    border: 1px;
+  }
+  .top-60 {
+    top: 60px;
+  }
+  .content-area {
+    min-height: calc(100vh - 8rem);
+  }
 }
 
 :root {
-    font-size: 14px;
-    --color-white: #fff;
-    --color-primary-100: #dee3ea;
-    --color-primary-200: #b2bdcd;
-    --color-primary-300: #5d7290;
-    --color-primary-600: #323d4d;
-    --color-primary-700: #242c37;
-    --color-primary-800: #151a21;
-    --color-primary-900: #0b0e11;
-    --color-blue: #3B82F6;
-    --color-blue-hover: #2563EB;
-    --color-blue-disabled: #93C5FD;
+  /* normalní režim barvy*/
+  --color-primary: #fff;
+  --color-priamry-2: #e5e5e5;
+
+  /* dark režim barvy*/
+
+  --color-dark: #161515;
+  --color-footer-bg: #282626;
 }
 
-body{
-    font-family: 'Montserrat', sans-serif;
+body {
+  font-family: 'Montserrat', sans-serif;
 }
-
-.menu-primary-enter {
-    position: absolute;
-    transform: translateX(-110%);
+input[type='button'] {
+  outline: none;
 }
-.menu-primary-enter-active {
-    transform: translateX(0%);
-    transition: all 500ms ease;
-}
-.menu-primary-exit {
-    position: absolute;
-}
-.menu-primary-exit-active {
-    transform: translateX(-110%);
-    transition: all 500ms ease;
-}
-
-
-.menu-secondary-enter {
-    transform: translateX(110%);
-}
-.menu-secondary-enter-active {
-    transform: translateX(0%);
-    transition: all 500ms ease;
-}
-.menu-secondary-exit {
-
-}
-.menu-secondary-exit-active {
-    transform: translateX(110%);
-    transition: all 500ms ease;
-}
-.dropdown{
-    transition: height 500ms ease;
-    -moz-box-sizing: content-box;
-    -webkit-box-sizing: content-box;
-    box-sizing: content-box;
+input[type='button']::-moz-focus-inner {
+  border: 0;
 }
