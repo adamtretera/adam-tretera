@@ -29,9 +29,3 @@
 body {
   font-family: 'Montserrat', sans-serif;
 }
-input[type='button'] {
-  outline: none;
-}
-input[type='button']::-moz-focus-inner {
-  border: 0;
-}

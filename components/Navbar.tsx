@@ -10,10 +10,10 @@ export default function Navbar() {
     <header>
       <nav className="h-32 px-12">
         <ul className="max-w-full h-full flex justify-between">
-          <li className="flex items-center justify-center text-2xl font-normal">
+          <li className="flex items-center justify-center text-xl font-normal">
             Adam Tretera.
           </li>
-          <ul className="flex items-center justify-center text-2xl font-light">
+          <ul className="flex items-center justify-center text-xl font-light">
             <li className="m-8">{t.projects}</li>
             <li className="m-8">{t.about}</li>
             <li className="m-8">{t.contact}</li>
