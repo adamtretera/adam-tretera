@@ -19,7 +19,7 @@ export default function About() {
         />
       </div>
 
-      <p className="text-2xl mr-6 font-light mr-10 ">{t.aboutText}</p>
+      <p className="text-2xl mr-6 font-light ">{t.aboutText}</p>
     </section>
   );
 }
