@@ -13,6 +13,9 @@
   .content-area {
     min-height: calc(100vh - 8rem);
   }
+  .p-20vh {
+    padding-top: 20vh;
+  }
 }
 
 :root {

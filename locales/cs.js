@@ -16,5 +16,10 @@ export default {
   //About
   aboutHeader: 'Něco málo o mně?',
   aboutText:
+    'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tortor adipiscing nec quam volutpat. A, sem urna duis suscipit sed parturient nullam ac. Sit sed blandit lectus lacus, dignissim amet, quis. Et massa nisi ut cursus habitant venenatis a commodo.',
+
+  //Hobbies
+  hobbiesHeader: 'Co mě baví?',
+  hobbiesText:
     'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tortor adipiscing nec quam volutpat. A, sem urna duis suscipit sed parturient nullam ac. Sit sed blandit lectus lacus, dignissim amet, quis. Et massa nisi ut cursus habitant venenatis a commodo.'
 };

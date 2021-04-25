@@ -1,18 +1,19 @@
 import React from 'react';
 import data from './CardData';
 import Image from 'next/image';
+import { url } from 'node:inspector';
 export function Card() {
   const projects = data;
   const listItems = projects.map((project) =>
     project.id % 3 === 0 || project.id % 4 === 0 ? (
-      <div key={project.id} className="w-full h-60 rounded-2xl shadow-2xl">
-        <img src={project.image} />
-      </div>
-    ) : (
-      <img
+      <div
         key={project.id}
-        className="w-full h-60 col-span-2 rounded-2xl shadow-2xl object-cover"
-        src={project.image}
+        className="w-full h-60 rounded-2xl shadow-lg object-contain bg-primary-100"
+      ></div>
+    ) : (
+      <div
+        key={project.id}
+        className="w-full h-60 col-span-2 rounded-2xl shadow-lg object-cover bg-primary-100"
       />
     )
   );

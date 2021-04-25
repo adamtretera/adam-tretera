@@ -2,6 +2,7 @@ import '@/styles/tailwind.css';
 import Navbar from '@/components/Navbar';
 import { ThemeProvider } from 'next-themes';
 import BottomNav from '@/components/BottomNav';
+import Footer from '@/components/Footer';
 
 function MyApp({ Component, pageProps }) {
   return (
@@ -9,6 +10,7 @@ function MyApp({ Component, pageProps }) {
       <Navbar />
       <Component {...pageProps} />
       <BottomNav />
+      <Footer />
     </ThemeProvider>
   );
 }
