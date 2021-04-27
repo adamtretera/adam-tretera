@@ -10,7 +10,7 @@ export default function About() {
   return (
     <section>
       <div className="flex items-center justify-between ">
-        <h1 className="text-6xl">{t.aboutHeader}</h1>
+        <h1 className="text-4xl md:text-6xl">{t.aboutHeader}</h1>
         <img
           className="rounded-full "
           src="/images/profile.jpeg"

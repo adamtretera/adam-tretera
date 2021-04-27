@@ -9,7 +9,7 @@ export default function Projects() {
 
   return (
     <section className="content-area">
-      <h1 className="text-6xl">{t.projects}</h1>
+      <h1 className="text-4xl md:text-6xl">{t.projects}</h1>
       <p className="text-2xl font-light pt-8 w-3/4">{t.projectsShort}</p>
       <Card />
       <div className="flex items-center justify-end  pt-8">

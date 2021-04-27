@@ -12,7 +12,7 @@ export default function Home() {
   const t = locale === 'cs' ? cs : en;
 
   return (
-    <main className="max-w-screen-md m-auto">
+    <main className="mx-5 md:max-w-screen-md md:m-auto">
       <Hero />
       <Projects />
       <About />

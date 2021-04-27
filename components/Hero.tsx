@@ -12,11 +12,13 @@ export default function Hero() {
     <>
       <section className="grid place-items-center content-area">
         <div>
-          <h1 className="text-6xl">{t.hero}</h1>
-          <p className="text-2xl font-light pt-8 w-3/4">{t.heroShort}</p>
+          <h1 className="text-4xl md:text-6xl">{t.hero}</h1>
+          <p className="text-lg md:text-2xl font-light pt-8 w-3/4">
+            {t.heroShort}
+          </p>
 
-          <div className="flex items-center justify-end mt-20">
-            <p className="text-2xl mr-6 font-light ">{t.heroHi}</p>
+          <div className="flex items-center justify-end md:mt-20">
+            <p className="text-lg md:text-2xl mr-6 font-light ">{t.heroHi}</p>
             <img
               className="border-2 border-black rounded-full"
               src="/images/profile.jpeg"
