@@ -11,7 +11,7 @@ export default function BottomNav() {
   };
 
   return (
-    <nav className="h-32 px-12  sticky bottom-0">
+    <nav className="h-32 px-6  md:px-12   sticky bottom-0">
       <ul className="max-w-full h-full flex justify-between">
         <li className="font-light flex items-center justify-center text-2xl">
           <button
