@@ -13,11 +13,15 @@ export function Card() {
     ) : (
       <div
         key={project.id}
-        className="w-full h-60 col-span-2 rounded-2xl shadow-lg object-cover bg-primary-100"
+        className="w-full h-60  col-span-2 rounded-2xl shadow-lg object-cover bg-primary-100"
       />
     )
   );
-  return <div className="grid grid-cols-5 gap-4 pt-8">{listItems}</div>;
+  return (
+    <div className="grid sm:grid-cols-5 grid-cols-2  gap-4 pt-8">
+      {listItems}
+    </div>
+  );
 }
 // export async function getStaticProps() {
 //   const res = await fetch('https://.../posts')

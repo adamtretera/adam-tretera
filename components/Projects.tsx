@@ -10,10 +10,14 @@ export default function Projects() {
   return (
     <section className="content-area">
       <h1 className="text-4xl md:text-6xl">{t.projects}</h1>
-      <p className="text-2xl font-light pt-8 w-3/4">{t.projectsShort}</p>
+      <p className="text-lg sm:text-2xl font-light pt-8 w-3/4">
+        {t.projectsShort}
+      </p>
       <Card />
       <div className="flex items-center justify-end  pt-8">
-        <p className="text-2xl mr-6 font-light">{t.projectsGithub}</p>
+        <p className="text-lg sm:text-2xl mr-6 font-light">
+          {t.projectsGithub}
+        </p>
         <svg
           width="60"
           height="56"

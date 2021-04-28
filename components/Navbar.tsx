@@ -19,7 +19,7 @@ export default function Navbar() {
   return (
     <Disclosure
       as="nav"
-      className="sm:h-32 h-24 -mb-24  sm:-mb-32 px-6 md:px-12 sticky top-0 backdrop-filter backdrop-grayscale backdrop-blur-md backdrop-contrast-5 py-5 "
+      className="sm:h-32 h-24 -mb-24  sm:-mb-32 px-6 md:px-12 sticky top-0  py-5 backdrop-filter backdrop-grayscale backdrop-blur-md backdrop-contrast-5 "
     >
       {({ open }) => (
         <>
@@ -40,16 +40,10 @@ export default function Navbar() {
                   )}
                 </Disclosure.Button>
               </div>
-              <div className="hidden sm:flex  sm:ml-6 ">
-                <div className="flex items-center justify-center ">
-                  {navigation.map((item) => (
-                    <NavLink
-                      key={item.name}
-                      href={item.href}
-                      name={item.name}
-                    />
-                  ))}
-                </div>
+              <div className="hidden sm:flex sm:ml-6 ">
+                {navigation.map((item) => (
+                  <NavLink key={item.name} href={item.href} name={item.name} />
+                ))}
               </div>
             </div>
           </div>
@@ -63,8 +57,8 @@ export default function Navbar() {
             leaveFrom="transform opacity-100 scale-100"
             leaveTo="transform opacity-0 scale-95"
           >
-            <Disclosure.Panel className="sm:hidden z-20 py-5 mt-5 backdrop-filter backdrop-grayscale backdrop-blur-md backdrop-contrast-5">
-              <div className="px-2 pt-3 pb-3 space-y-1 text-right">
+            <Disclosure.Panel className="sm:hidden z-40 py-5 flex justify-end">
+              <div className="px-2 py-10 space-y-1 text-right bg-primary-0 dark:bg-dark-0 w-1/2 ">
                 {navigation.map((item) => (
                   <NavLink key={item.name} href={item.href} name={item.name} />
                 ))}
