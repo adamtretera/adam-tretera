@@ -9,17 +9,19 @@ export default function About() {
 
   return (
     <section>
-      <div className="flex items-center justify-between ">
-        <h1 className="text-4xl md:text-6xl">{t.aboutHeader}</h1>
+      <div className="flex items-center justify-between p-20vh ">
+        <h1 className="text-4xl md:text-6xl ">{t.aboutHeader}</h1>
         <img
-          className="rounded-full "
+          className="rounded-full w-16  sm:w-28 "
           src="/images/profile.jpeg"
           height="120"
           width="120"
         />
       </div>
 
-      <p className="text-lg sm:text-2xl mr-6 font-light ">{t.aboutText}</p>
+      <p className="text-lg sm:text-2xl mr-6 font-light pt-4 sm:pt-8">
+        {t.aboutText}
+      </p>
     </section>
   );
 }

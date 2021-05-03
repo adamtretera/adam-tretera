@@ -1,20 +1,21 @@
 import React from 'react';
 import data from './CardData';
-import Image from 'next/image';
-import { url } from 'node:inspector';
+
 export function Card() {
   const projects = data;
   const listItems = projects.map((project) =>
     project.id % 3 === 0 || project.id % 4 === 0 ? (
-      <div
+      <img
+        src={project.image}
         key={project.id}
-        className="w-full h-60 rounded-2xl shadow-lg object-contain bg-primary-100"
-      ></div>
+        className="w-full filter grayscale hover:grayscale-0 h-60 rounded-2xl shadow-lg object-contain bg-primary-100"
+      ></img>
     ) : (
-      <div
+      <img
+        src={project.image}
         key={project.id}
-        className="w-full h-60  col-span-2 rounded-2xl shadow-lg object-cover bg-primary-100"
-      />
+        className="w-full h-60  filter grayscale hover:grayscale-0 col-span-2 rounded-2xl shadow-lg object-cover bg-primary-100"
+      ></img>
     )
   );
   return (

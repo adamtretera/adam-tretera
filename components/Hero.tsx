@@ -1,7 +1,6 @@
 import { useRouter } from 'next/router';
 import en from '@/locales/en';
 import cs from '@/locales/cs';
-import BottomNav from '@/components/BottomNav';
 
 export default function Hero() {
   const router = useRouter();
@@ -12,7 +11,7 @@ export default function Hero() {
     <>
       <section className="grid place-items-center content-area">
         <div>
-          <h1 className="text-3xl sm:text-6xl">{t.hero}</h1>
+          <h1 className="text-4xl sm:text-6xl">{t.hero}</h1>
           <p className="text-lg  sm:text-2xl font-light pt-4 sm:pt-8 sm:w-3/4">
             {t.heroShort}
           </p>

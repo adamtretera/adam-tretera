@@ -21,7 +21,7 @@ export default function Hobbies() {
         <h1 className="text-4xl md:text-6xl">{t.hobbiesHeader}</h1>
       </div>
 
-      <p className="text-lg sm:text-2xl mr-6 font-light pt-8">
+      <p className="text-lg sm:text-2xl mr-6 font-light pt-4 sm:pt-8">
         {t.hobbiesText}
       </p>
       <div className="grid grid-cols-3  md:grid-cols-6 gap-4 pt-8">

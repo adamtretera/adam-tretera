@@ -19,7 +19,7 @@ export default function Navbar() {
   return (
     <Disclosure
       as="nav"
-      className="sm:h-32 h-24 -mb-24  sm:-mb-32 px-6 md:px-12 sticky top-0  py-5 backdrop-filter backdrop-grayscale backdrop-blur-md backdrop-contrast-5 "
+      className="sm:h-32 h-24 -mb-24  sm:-mb-32 px-6 md:px-12 sticky top-0 sm:relative   py-5 backdrop-filter sm:backdrop-filter-none backdrop-grayscale backdrop-blur-md backdrop-contrast-5 "
     >
       {({ open }) => (
         <>
@@ -40,7 +40,7 @@ export default function Navbar() {
                   )}
                 </Disclosure.Button>
               </div>
-              <div className="hidden sm:flex sm:ml-6 ">
+              <div className="hidden sm:flex sm:ml-6 items-center">
                 {navigation.map((item) => (
                   <NavLink key={item.name} href={item.href} name={item.name} />
                 ))}
