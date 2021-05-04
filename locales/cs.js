@@ -7,7 +7,7 @@ export default {
   //Hero
   hero: 'Jsem možná až moc nadšený webdevloper, který dělá co ho baví.',
   heroShort:
-    'Pracuji s nejmodernějšími technologiemi, když je potřeba, tak se rád naučím novým věcem.',
+    'Pracuji s moderními technologiemi a když je potřeba, tak se rád naučím novým věcem.',
   heroHi: 'Ahoj, tady Adam',
   projects: 'Na čem teď pracuji',
   projectsShort: 'Ukázka z mé poslední tvorby.',
@@ -16,10 +16,10 @@ export default {
   //About
   aboutHeader: 'Něco málo o mně?',
   aboutText:
-    'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tortor adipiscing nec quam volutpat. A, sem urna duis suscipit sed parturient nullam ac. Sit sed blandit lectus lacus, dignissim amet, quis. Et massa nisi ut cursus habitant venenatis a commodo.',
+    'Jsem student střední školy EDUCAnet Praha, rád tvořím webové appky, jsem nadšený pro nové technologie a rád objevuji nové možnosti, jak jde něco udělat lépe. Mým cílem je aby všechny mé "výtvory" byly rychlé, zabezpečené a moderní. Po perfektně odvedené práci si s Vámi rád popovídám o čemkoliv, jak už ze světa IT tak obecně.',
 
   //Hobbies
   hobbiesHeader: 'Co mě baví?',
   hobbiesText:
-    'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tortor adipiscing nec quam volutpat. A, sem urna duis suscipit sed parturient nullam ac. Sit sed blandit lectus lacus, dignissim amet, quis. Et massa nisi ut cursus habitant venenatis a commodo.'
+    'Být nadšencem do moderních technologií pro mě především známá se neustále učit něčemu novému. Moji favoriti v současnosti při vývoji jsou zejména - React (Next.JS) a Firebase, a jestli vás zajímá více - celý můj stack zde.'
 };
