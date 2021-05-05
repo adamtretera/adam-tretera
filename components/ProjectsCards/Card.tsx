@@ -1,15 +1,18 @@
 import React from 'react';
 import data from './CardData';
+import Image from 'next/image';
 
 export function Card() {
   const projects = data;
   const listItems = projects.map((project) =>
     project.id % 3 === 0 || project.id % 4 === 0 ? (
-      <img
+      <Image
+        width="60"
+        height="60"
         src={project.image}
         key={project.id}
         className="w-full filter grayscale hover:grayscale-0 h-60 rounded-2xl shadow-lg object-contain bg-primary-100"
-      ></img>
+      />
     ) : (
       <img
         src={project.image}
