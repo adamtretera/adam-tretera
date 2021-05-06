@@ -22,7 +22,7 @@ export function Card() {
     )
   );
   return (
-    <div className="grid sm:grid-cols-5 grid-cols-2  gap-4 pt-8">
+    <div className="grid sm:grid-cols-5 grid-cols-2  gap-4 pt-4 sm:pt-8">
       {listItems}
     </div>
   );

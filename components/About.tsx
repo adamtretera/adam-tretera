@@ -9,10 +9,10 @@ export default function About() {
 
   return (
     <section>
-      <div className="flex items-center justify-between p-20vh ">
+      <div className="flex items-end justify-between p-20vh ">
         <h1 className="text-4xl md:text-6xl ">{t.aboutHeader}</h1>
         <img
-          className="rounded-full w-16  sm:w-28 "
+          className="rounded-full w-16  -mb-8 sm:w-28 "
           src="/images/profile.jpeg"
           height="120"
           width="120"

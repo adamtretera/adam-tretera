@@ -12,7 +12,7 @@ export default function Navbar() {
   const t = locale === 'cs' ? cs : en;
 
   const navigation = [
-    { name: t.projects, href: '#' },
+    { name: t.projects_nav, href: '/projects' },
     { name: t.about, href: '#' },
     { name: t.contact, href: '#' }
   ];

@@ -1,6 +1,6 @@
 export default {
   //Navbar
-  projects: 'Projekty',
+  projects_nav: 'Projekty',
   about: 'O mně',
   contact: 'Kontakt',
 

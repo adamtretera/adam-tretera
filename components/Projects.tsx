@@ -10,9 +10,7 @@ export default function Projects() {
   return (
     <section>
       <h1 className="text-4xl sm:text-6xl">{t.projects}</h1>
-      <p className="text-lg sm:text-2xl pt-4 sm:pt-8 font-light sm:w-3/4">
-        {t.projectsShort}
-      </p>
+     
       <Card />
       <a href="https://github.com/adamtretera?tab=repositories">
         <div className="flex items-center justify-end  pt-8">

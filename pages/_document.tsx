@@ -6,7 +6,6 @@ class MyDocument extends Document {
     return (
       <Html>
         <Head>
-          <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
         </Head>
         <body className="text-dark-0 dark:text-primary-0  bg-text.primary-0 dark:bg-dark-0">
           <Main />
