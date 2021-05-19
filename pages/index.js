@@ -5,6 +5,7 @@ import Hero from '@/components/Hero';
 import Projects from '../components/Projects';
 import About from '@/components/About';
 import Hobbies from '@/components/Hobbies';
+export const databaseId = process.env.NOTION_DATABASE_ID;
 
 export default function Home() {
   const router = useRouter();
