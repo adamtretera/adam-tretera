@@ -22,7 +22,11 @@ export default function Hobbies() {
       </div>
 
       <p className="text-lg sm:text-2xl mr-6 font-light pt-4 sm:pt-8">
-        {t.hobbiesText}
+        {t.hobbiesText}{' '}
+        <a href="https://stackshare.io/AdamTretera" className="underline">
+          {t.hobbiesStack}
+        </a>
+        .
       </p>
       <div className="grid grid-cols-3  md:grid-cols-6 gap-4 pt-8">
         <Card title="HTML5">

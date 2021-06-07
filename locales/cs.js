@@ -21,5 +21,6 @@ export default {
   //Hobbies
   hobbiesHeader: 'Co mě baví?',
   hobbiesText:
-    'Být nadšencem do moderních technologií pro mě především známá se neustále učit něčemu novému. Moji favoriti v současnosti při vývoji jsou zejména - React (Next.JS) a Firebase, a jestli vás zajímá více - celý můj stack zde.'
+    'Být nadšencem do moderních technologií pro mě především známá se neustále učit něčemu novému. Moji favoriti v současnosti při vývoji jsou zejména - React (Next.JS) a Firebase, a jestli vás zajímá více - celý můj stack naleznete',
+  hobbiesStack: 'zde'
 };
