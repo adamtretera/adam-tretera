@@ -1,6 +1,9 @@
 import React from 'react';
-import Image from 'next/image';
 
-export function BlogItem(blogData) {
-  return <div></div>;
+export function HeaderTitle({ title }) {
+  return (
+    <header>
+      <h1 className="text-4xl sm:text-6xl  flex justify-center	py-4">{title}</h1>
+    </header>
+  );
 }

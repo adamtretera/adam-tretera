@@ -1,4 +1,5 @@
-import { NotionRenderer } from 'react-notion';
+import { PageArea } from '@/components/Elements/PageArea';
+import { NotionRenderer, BlockMapType } from 'react-notion';
 
 import { getAllPosts } from '../blog';
 
@@ -8,7 +9,7 @@ export async function getStaticProps({ params: { slug } }) {
   // Find the current blogpost by slug
   const post = posts.find((t) => t.slug === slug);
 
-  const blocks = await fetch(
+  const blocks: BlockMapType = await fetch(
     `https://notion-api.splitbee.io/v1/page/${post.id}`
   ).then((res) => res.json());
 
@@ -28,9 +29,10 @@ export async function getStaticPaths() {
 }
 
 const Post = ({ post, blocks }) => (
-  <div>
-    <h1>{post.title}</h1>
-    <NotionRenderer blockMap={blocks} />
-  </div>
+  <PageArea>
+    <div>
+      <NotionRenderer blockMap={blocks} />
+    </div>
+  </PageArea>
 );
 export default Post;
