@@ -3,7 +3,8 @@ import Navbar from '@/components/Navbar';
 import { ThemeProvider } from 'next-themes';
 import BottomNav from '@/components/BottomNav';
 import Footer from '@/components/Footer';
-
+import 'react-notion/src/styles.css';
+import 'prismjs/themes/prism-tomorrow.css';
 function MyApp({ Component, pageProps }) {
   return (
     <ThemeProvider attribute="class">

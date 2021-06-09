@@ -22,11 +22,13 @@
   /* normalní režim barvy*/
   --color-primary: #fff;
   --color-priamry-2: #e5e5e5;
+  --color-priamry-opacity: #e5e5e53f;
 
   /* dark režim barvy*/
 
   --color-dark: #161515;
   --color-footer-bg: #282626;
+  --color-dark-opacity: #28262660;
 }
 
 body {
