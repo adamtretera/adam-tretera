@@ -40,7 +40,7 @@ const Post = ({ post, blocks }) => (
     <div className="mx-20 max-w-4xl"></div>
     <PageArea>
       <div>
-        <NotionRenderer blockMap={blocks} />
+        {blocks ? <NotionRenderer blockMap={blocks} /> : <h1>Loading</h1>}
       </div>
     </PageArea>
   </div>
