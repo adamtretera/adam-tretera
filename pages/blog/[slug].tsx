@@ -36,11 +36,7 @@ const Post = ({ post, blocks }) => (
     <Link href="/">
       <a className="opacity-70">← Zpět</a>
     </Link>
-    <header>
-      <h1 className="text-4xl sm:text-6xl  flex justify-center	py-4">
-        {post.title}
-      </h1>
-    </header>
+
     <div className="mx-20 max-w-4xl"></div>
     <PageArea>
       <div>
