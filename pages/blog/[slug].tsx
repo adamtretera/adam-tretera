@@ -1,7 +1,10 @@
 import { PageArea } from '@/components/Elements/PageArea';
+import Link from 'next/link';
+import React from 'react';
 import { NotionRenderer, BlockMapType } from 'react-notion';
 
 import { getAllPosts } from '../blog';
+import { HeaderTitle } from '@/components/Elements/HeaderTitle';
 
 export async function getStaticProps({ params: { slug } }) {
   // Get all posts again
@@ -29,10 +32,21 @@ export async function getStaticPaths() {
 }
 
 const Post = ({ post, blocks }) => (
-  <PageArea>
-    <div>
-      <NotionRenderer blockMap={blocks} />
-    </div>
-  </PageArea>
+  <div className="pt-32 px-60">
+    <Link href="/">
+      <a className="opacity-70">← Zpět</a>
+    </Link>
+    <header>
+      <h1 className="text-4xl sm:text-6xl  flex justify-center	py-4">
+        {post.title}
+      </h1>
+    </header>
+    <div className="mx-20 max-w-4xl"></div>
+    <PageArea>
+      <div>
+        <NotionRenderer blockMap={blocks} />
+      </div>
+    </PageArea>
+  </div>
 );
 export default Post;

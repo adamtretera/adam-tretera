@@ -24,8 +24,8 @@
 :root {
   /* normalní režim barvy*/
   --color-primary: #fff;
-  --color-priamry-2: #e5e5e5;
-  --color-priamry-opacity: #e5e5e53f;
+  --color-primary-2: #e5e5e5;
+  --color-primary-opacity: #e5e5e53f;
 
   /* dark režim barvy*/
 
