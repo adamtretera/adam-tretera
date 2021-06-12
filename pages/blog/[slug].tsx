@@ -32,9 +32,9 @@ export async function getStaticPaths() {
 }
 
 const Post = ({ post, blocks }) => (
-  <div className="pt-32 px-60">
+  <div className="pt-23 md:pt-32 px-60">
     <Link href="/blog">
-      <a >← Zpět</a>
+      <a>← Zpět</a>
     </Link>
 
     <div className="mx-20 max-w-4xl"></div>

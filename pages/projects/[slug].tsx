@@ -1,3 +1,4 @@
+import BackLink from '@/components/Elements/BackLink';
 import { PageArea } from '@/components/Elements/PageArea';
 import Link from 'next/link';
 import React from 'react';
@@ -31,12 +32,8 @@ export async function getStaticPaths() {
 }
 
 const Post = ({ post, blocks }) => (
-  <div className="pt-32 px-60">
-    <Link href="/blog">
-      <a>← Zpět</a>
-    </Link>
-
-    <div className="mx-20 max-w-4xl"></div>
+  <div className="pt-24 md:pt-32 ">
+    <BackLink href="/projects" name="Zpet" />
     <PageArea>
       <div>
         {blocks ? <NotionRenderer blockMap={blocks} /> : <h1>Loading</h1>}
