@@ -2,7 +2,7 @@ export default {
   //Navbar
   projects_nav: 'Projekty',
   about: 'O mně',
-  contact: 'Kontakt',
+  blog: 'Blog',
 
   //Hero
   hero: 'Jsem možná až moc nadšený webdevloper, který dělá co ho baví.',

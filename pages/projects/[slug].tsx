@@ -3,12 +3,11 @@ import Link from 'next/link';
 import React from 'react';
 import { NotionRenderer, BlockMapType } from 'react-notion';
 
-import { getAllPosts } from '../blog';
-import { HeaderTitle } from '@/components/Elements/HeaderTitle';
+import { getAllProjects } from '../projects';
 
 export async function getStaticProps({ params: { slug } }) {
   // Get all posts again
-  const posts = await getAllPosts();
+  const posts = await getAllProjects();
   // Find the current blogpost by slug
   const post = posts.find((t) => t.slug === slug);
 
@@ -24,9 +23,9 @@ export async function getStaticProps({ params: { slug } }) {
   };
 }
 export async function getStaticPaths() {
-  const posts = await getAllPosts();
+  const posts = await getAllProjects();
   return {
-    paths: posts.map((row) => `/blog/${row.slug}`),
+    paths: posts.map((row) => `/projects/${row.slug}`),
     fallback: true
   };
 }
@@ -34,7 +33,7 @@ export async function getStaticPaths() {
 const Post = ({ post, blocks }) => (
   <div className="pt-32 px-60">
     <Link href="/blog">
-      <a >← Zpět</a>
+      <a>← Zpět</a>
     </Link>
 
     <div className="mx-20 max-w-4xl"></div>

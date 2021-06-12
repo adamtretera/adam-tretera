@@ -13,8 +13,9 @@ export default function Navbar() {
 
   const navigation = [
     { name: t.projects_nav, href: '/projects' },
+    { name: t.blog, href: '/blog' },
     { name: t.about, href: '#' },
-    { name: t.contact, href: '#' }
+ 
   ];
   return (
     <Disclosure
@@ -24,7 +25,7 @@ export default function Navbar() {
       {({ open }) => (
         <>
           <div className="max-w-full h-full flex justify-between ">
-            <a className="items-center justify-center md:text-xl font-normal hidden sm:flex">
+            <a href="/" className="items-center justify-center md:text-xl font-normal hidden sm:flex">
               Adam Tretera.
             </a>
             <a className="flex items-center justify-center text-xl font-normal sm:hidden">
