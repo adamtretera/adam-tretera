@@ -3,6 +3,7 @@ export default {
   projects_nav: 'Projects',
   about: 'About',
   blog: 'Blog',
+  home: 'Home',
 
   //Hero
   hero: 'I am very excited web developer who does what he enjoys.',

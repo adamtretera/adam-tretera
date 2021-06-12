@@ -3,6 +3,7 @@ export default {
   projects_nav: 'Projekty',
   about: 'O mně',
   blog: 'Blog',
+  home: 'Úvod',
 
   //Hero
   hero: 'Jsem možná až moc nadšený webdevloper, který dělá co ho baví.',
