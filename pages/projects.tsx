@@ -61,7 +61,7 @@ function ProjectsPage({ posts }) {
           Nic jsem tu nenašel.
         </p>
       )}
-    </PageArea>  
+    </PageArea>
   );
 }
 

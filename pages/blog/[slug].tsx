@@ -5,6 +5,7 @@ import { NotionRenderer, BlockMapType } from 'react-notion';
 
 import { getAllPosts } from '../blog';
 import { HeaderTitle } from '@/components/Elements/HeaderTitle';
+import BackLink from '@/components/Elements/BackLink';
 
 export async function getStaticProps({ params: { slug } }) {
   // Get all posts again
@@ -15,7 +16,7 @@ export async function getStaticProps({ params: { slug } }) {
   const blocks: BlockMapType = await fetch(
     `https://notion-api.splitbee.io/v1/page/${post.id}`
   ).then((res) => res.json());
-
+  console.log(blocks);
   return {
     props: {
       blocks,
@@ -32,10 +33,8 @@ export async function getStaticPaths() {
 }
 
 const Post = ({ post, blocks }) => (
-  <div className="pt-23 md:pt-32 px-60">
-    <Link href="/blog">
-      <a>← Zpět</a>
-    </Link>
+  <div className="pt-24 md:pt-32 ">
+    <BackLink href="/projects" name="Zpet" />
 
     <div className="mx-20 max-w-4xl"></div>
     <PageArea>
