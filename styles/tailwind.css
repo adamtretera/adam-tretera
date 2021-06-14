@@ -13,6 +13,9 @@
   .content-area {
     min-height: calc(100vh);
   }
+  .screen {
+    min-height: calc(100vh - 16rem);
+  }
   .p-20vh {
     padding-top: 20vh;
   }
@@ -21,12 +24,14 @@
 :root {
   /* normalní režim barvy*/
   --color-primary: #fff;
-  --color-priamry-2: #e5e5e5;
+  --color-primary-2: #e5e5e5;
+  --color-primary-opacity: #e5e5e53f;
 
   /* dark režim barvy*/
 
   --color-dark: #161515;
   --color-footer-bg: #282626;
+  --color-dark-opacity: #28262660;
 }
 
 body {

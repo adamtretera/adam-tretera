@@ -1,14 +1,14 @@
-import BackLink from '@/components/Elements/BackLink';
 import { PageArea } from '@/components/Elements/PageArea';
 import Link from 'next/link';
 import React from 'react';
 import { NotionRenderer, BlockMapType } from 'react-notion';
 
-import { getAllProjects } from '../projects';
+import { getAllPosts } from '../blog';
+import { HeaderTitle } from '@/components/Elements/HeaderTitle';
 
 export async function getStaticProps({ params: { slug } }) {
   // Get all posts again
-  const posts = await getAllProjects();
+  const posts = await getAllPosts();
   // Find the current blogpost by slug
   const post = posts.find((t) => t.slug === slug);
 
@@ -24,16 +24,20 @@ export async function getStaticProps({ params: { slug } }) {
   };
 }
 export async function getStaticPaths() {
-  const posts = await getAllProjects();
+  const posts = await getAllPosts();
   return {
-    paths: posts.map((row) => `/projects/${row.slug}`),
+    paths: posts.map((row) => `/blog/${row.slug}`),
     fallback: true
   };
 }
 
 const Post = ({ post, blocks }) => (
-  <div className="pt-24 md:pt-32 ">
-    <BackLink href="/projects" name="Zpet" />
+  <div className="pt-23 md:pt-32 px-60">
+    <Link href="/blog">
+      <a>← Zpět</a>
+    </Link>
+
+    <div className="mx-20 max-w-4xl"></div>
     <PageArea>
       <div>
         {blocks ? <NotionRenderer blockMap={blocks} /> : <h1>Loading</h1>}

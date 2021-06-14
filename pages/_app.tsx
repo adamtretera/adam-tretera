@@ -1,8 +1,10 @@
-import '@/styles/tailwind.css';
 import Navbar from '@/components/Navbar';
 import { ThemeProvider } from 'next-themes';
 import BottomNav from '@/components/BottomNav';
 import Footer from '@/components/Footer';
+import '@/styles/notion.css';
+import 'prismjs/themes/prism-tomorrow.css';
+import '@/styles/tailwind.css';
 
 function MyApp({ Component, pageProps }) {
   return (
