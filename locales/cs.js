@@ -6,7 +6,7 @@ export default {
   home: 'Úvod',
 
   //Hero
-  hero: 'Jsem možná až moc nadšený webdevloper, který dělá co ho baví.',
+  hero: 'Možná až moc nadšený webdevloper, který dělá co ho baví.',
   heroShort:
     'Pracuji s moderními technologiemi a když je potřeba, tak se rád naučím novým věcem.',
   heroHi: 'Ahoj, tady Adam',

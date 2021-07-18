@@ -15,7 +15,7 @@ export default function Navbar() {
     { name: t.home, href: '/' },
     { name: t.projects_nav, href: '/projects' },
     { name: t.blog, href: '/blog' },
-    { name: t.about, href: '/about' },
+    { name: t.about, href: '/about' }
   ];
   return (
     <Disclosure

@@ -9,7 +9,7 @@ function NavLink({ href, name }: Props) {
     <Link href={href} passHref>
       <a className="text-xl font-light block mx-4 ">{name}</a>
     </Link>
-  );
+  )
 }
 
 export default NavLink;
