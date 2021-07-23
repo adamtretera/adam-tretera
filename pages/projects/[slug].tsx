@@ -36,7 +36,7 @@ const Post = ({ post, blocks }) => (
     <BackLink href="/projects" name="Zpet" />
     <PageArea>
       <div>
-        {post.title ? <h1 className="text-5xl pb-2">{post.title}</h1> : null}
+        {post?.title ? <h1 className="text-5xl pb-2">{post?.title}</h1> : null}
         {blocks ? <NotionRenderer blockMap={blocks} /> : <h1>Loading</h1>}
       </div>
     </PageArea>
