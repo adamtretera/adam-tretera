@@ -39,7 +39,8 @@ const Post = ({ post, blocks }) => (
     <div className="mx-20 max-w-4xl"></div>
     <PageArea>
       <div>
-        <h1 className="text-5xl pb-2">{post.title}</h1>
+        {post.title ?  <h1 className="text-5xl pb-2">{post.title}</h1> : null}
+        
         {blocks ? <NotionRenderer blockMap={blocks} /> : <h1>Loading</h1>}
       </div>
     </PageArea>
