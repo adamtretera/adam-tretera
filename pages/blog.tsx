@@ -44,7 +44,7 @@ function Blog({ posts }) {
         onChange={handleSubmit(onSubmit)}
       >
         <input
-          className="px-4 py-2 font-light  w-1/2 bg-primary-100 dark:bg-dark-100rounded-lg"
+          className="px-4 py-2 font-light  w-1/2 bg-primary-100 dark:bg-dark-100 rounded-lg"
           type="text"
           placeholder="Hledat..."
           {...register('hledat', {})}
