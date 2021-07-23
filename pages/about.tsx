@@ -5,7 +5,7 @@ import en from '@/locales/en';
 import cs from '@/locales/cs';
 import { NotionRenderer, BlockMapType } from 'react-notion';
 import { useRouter } from 'next/router';
-
+import Image from 'next/image';
 export async function getStaticProps() {
   const blocks: BlockMapType = await fetch(
     `https://notion-api.splitbee.io/v1/page/ec121ba2dd5f4c5984a6c5d0836b7019`
@@ -24,7 +24,20 @@ const About = ({ blocks }) => {
   return (
     <PageArea>
       <HeaderTitle title="O mně" />
-      <p className="text-lg sm:text-xl font-light pt-2">{t.aboutText}</p>
+      <div className="flex items-center">
+        <p className="text-lg sm:text-xl font-light pt-2 w-8/12 ">
+          {t.aboutText}
+        </p>
+        <div className="w-4/12 p-8  text-center">
+          <img
+            className="rounded-full border-2 m-2 border-black"
+            src="/images/profile-2.jpg"
+          />
+          <p className="text-lg sm:text-xl 	 pt-2">+420 702 155 570</p>
+          <p className="text-lg sm:text-xl 	 pt-2">info@adamtretera.cz</p>
+        </div>
+      </div>
+
       {blocks ? (
         <NotionRenderer
           customBlockComponents={{
@@ -33,7 +46,7 @@ const About = ({ blocks }) => {
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="22"
-                  height="2"
+                  height="22"
                   viewBox="0 0 24 24"
                   className="mr-3 fill-current"
                 >

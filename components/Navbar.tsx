@@ -14,7 +14,8 @@ export default function Navbar() {
   const navigation = [
     { name: t.home, href: '/' },
     { name: t.projects_nav, href: '/projects' },
-    { name: t.blog, href: '/blog' }
+    { name: t.blog, href: '/blog' },
+    { name: t.about, href: '/about' }
   ];
   return (
     <Disclosure
