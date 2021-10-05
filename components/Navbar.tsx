@@ -1,8 +1,8 @@
 import { useRouter } from 'next/router';
 import en from '@/locales/en';
 import cs from '@/locales/cs';
-import { Disclosure, Menu, Transition } from '@headlessui/react';
-import { BellIcon, MenuIcon, XIcon } from '@heroicons/react/outline';
+import { Disclosure, Transition } from '@headlessui/react';
+import {  MenuIcon, XIcon } from '@heroicons/react/outline';
 import { Fragment } from 'react';
 import NavLink from './Elements/NavLink';
 
@@ -13,8 +13,6 @@ export default function Navbar() {
 
   const navigation = [
     { name: t.home, href: '/' },
-    { name: t.projects_nav, href: '/projects' },
-    { name: t.about, href: '/about' }
   ];
   return (
     <Disclosure
@@ -43,11 +41,11 @@ export default function Navbar() {
                   )}
                 </Disclosure.Button>
               </div>
-              <div className="hidden sm:flex sm:ml-6 items-center">
+              {/* <div className="hidden sm:flex sm:ml-6 items-center">
                 {navigation.map((item) => (
                   <NavLink key={item.name} href={item.href} name={item.name} />
                 ))}
-              </div>
+              </div> */}
             </div>
           </div>
           <Transition
@@ -61,11 +59,11 @@ export default function Navbar() {
             leaveTo="transform opacity-0 scale-95"
           >
             <Disclosure.Panel className="sm:hidden z-40 py-5 flex justify-end">
-              <div className="px-2 py-10 space-y-1 text-right bg-primary-0 dark:bg-dark-0 w-1/2 ">
+              {/* <div className="px-2 py-10 space-y-1 text-right bg-primary-0 dark:bg-dark-0 w-1/2 ">
                 {navigation.map((item) => (
                   <NavLink key={item.name} href={item.href} name={item.name} />
                 ))}
-              </div>
+              </div> */}
             </Disclosure.Panel>
           </Transition>
         </>

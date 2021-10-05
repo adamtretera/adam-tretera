@@ -2,7 +2,7 @@ import { useRouter } from 'next/router';
 import en from '@/locales/en';
 import cs from '@/locales/cs';
 import Hero from '@/components/Hero';
-import Projects from '../components/Projects';
+import Projects from '@/components/Projects';
 import About from '@/components/About';
 import Hobbies from '@/components/Hobbies';
 export const databaseId = process.env.NOTION_DATABASE_ID;
