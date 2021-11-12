@@ -15,7 +15,7 @@ export function ProjectsItem(projects) {
             <p className="text-lg font-light">{projects.data.perex}</p>
 
             <div className="flex mt-4">
-              <Badge array={projects.data.stack} />
+              {projects.data.stack ? <Badge array={projects.data.stack} /> : ''}
             </div>
           </div>
           <div
