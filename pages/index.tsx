@@ -1,6 +1,3 @@
-import { useRouter } from 'next/router';
-import en from '@/locales/en';
-import cs from '@/locales/cs';
 import Hero from '@/components/Hero';
 import Projects from '@/components/Projects';
 import About from '@/components/About';
