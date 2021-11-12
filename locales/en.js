@@ -16,11 +16,9 @@ export default {
 
   //About
   aboutHeader: 'About me',
-  aboutText:
-    'I am a student of the EDUCAnet Prague high school, I like to create web apps, I am enthusiastic about new technologies and I like to discover new ways to do something better. My goal is to make all my "creations" fast, secure and modern. After perfectly done job I will be happy to talk about anything, as the world of IT and general.',
+  aboutText:"I'm a student of Unicorn University, I like to create web apps, I'm enthusiastic about new technologies and I like to discover new ways to do something better. My goal is to make all my creations fast, secure and modern. After a perfect job is done, I'd love to chat with you about anything from the IT world and in general.",
 
   //Hobbies
   hobbiesHeader: 'What do I enjoy?',
-  hobbiesText:
-    'Being an enthusiast of modern technology for me, I am constantly learning something new. My favorites in development at the moment are mainly - React (Next.JS) and Firebase, and if you’re interested more - my whole stack here.'
+  hobbiesText:"Being a modern technology enthusiast for me, I'm especially known for constantly learning something new. My favorites in development at the moment are mainly - React (Next.JS) and Firebase, and if you're interested in more - you can find my whole stack here.",
 };

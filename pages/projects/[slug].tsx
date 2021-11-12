@@ -10,7 +10,7 @@ export async function getStaticProps({ params: { slug } }) {
   // Get all posts again
   const posts = await getAllProjects();
   // Find the current blogpost by slug
-  const post = posts.find((t) => t.slug === slug);
+  const post = posts.find((post) => post.slug === slug);
 
   const blocks: BlockMapType = await fetch(
     `https://notion-api.splitbee.io/v1/page/${post.id}`
