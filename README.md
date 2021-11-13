@@ -1,11 +1,9 @@
 <h1 align="center">Hi 👋, I'm Adam</h1>
-<h3 align="center">A passionate frontend developer from Czech Republic</h3>
+<h3 align="center">I am extremely excited web developer who does what he enjoys.</h3>
 
-- 🔭 I’m currently working for [Ackee](https://www.ackee.cz/)
+- 💜 I’m currently working for [Ackee](https://www.ackee.cz/)
 
 - 🌱 I’m currently learning **Typescript**
-
-- 👨‍💻 All of my projects are available at [adamtretera.cz](adamtretera.cz)
 
 - 📫 How to reach me **info@adamtretera.cz**
 
