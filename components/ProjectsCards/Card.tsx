@@ -17,7 +17,7 @@ export function Card() {
        </div>
     ) : (
       <div className=" w-full filter grayscale hover:grayscale-0 col-span-2 rounded-2xl shadow-lg object-cover bg-primary-100">
-      <Image
+        <Image
         alt={project.image}
         layout="fill"
         src={project.image}
