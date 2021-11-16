@@ -5,7 +5,6 @@ export default function BottomNav() {
   const { resolvedTheme, setTheme } = useTheme();
 
   const router = useRouter();
-  const { locale } = router;
   const changeLanguage = (e) => {
     const locale = e.target.value;
     router.push(router.pathname, router.asPath, { locale });

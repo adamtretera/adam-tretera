@@ -2,7 +2,7 @@ import React from 'react';
 import Link from 'next/link';
 import { format } from 'date-fns';
 import { cs } from 'date-fns/locale';
-
+import Image from 'next/image';
 export function BlogItem(blog) {
   return (
     <div className="cursor-pointer">
@@ -13,7 +13,8 @@ export function BlogItem(blog) {
             <p className="text-lg font-light">{blog.data.perex}</p>
 
             <div className="flex items-center pt-2">
-              <img
+              <Image
+                alt="Adam Tretera - frontend developer"
                 src={`${blog.data.autor[0].profilePhoto}`}
                 className="filter grayscale rounded-full w-10 h-10"
               />

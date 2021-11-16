@@ -2,7 +2,6 @@ import { useRouter } from 'next/router';
 import en from '@/locales/en';
 import cs from '@/locales/cs';
 
-import Link from 'next/link';
 
 export default function Footer() {
   const router = useRouter();

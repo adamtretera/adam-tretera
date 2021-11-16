@@ -1,6 +1,7 @@
 import { useRouter } from 'next/router';
 import en from '@/locales/en';
 import cs from '@/locales/cs';
+import Image from "next/image";
 
 export default function Hero() {
   const router = useRouter();
@@ -18,9 +19,10 @@ export default function Hero() {
 
           <div className="flex items-center justify-end mt-6 sm:mt-20">
             <p className="text-lg sm:text-2xl mr-6 font-light ">{t.heroHi}</p>
-            <img
+            <Image
               className="border-2 border-black rounded-full w-12"
               src="/images/profile.jpeg"
+              alt="Adam Tretera - frontend developer"
               height="60"
               width="60"
             />

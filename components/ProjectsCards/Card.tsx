@@ -6,19 +6,26 @@ export function Card() {
   const projects = data;
   const listItems = projects.map((project) =>
     project.id % 3 === 0 || project.id % 4 === 0 ? (
+      <div className="w-full filter grayscale hover:grayscale-0 h-56 rounded-2xl shadow-lg object-contain bg-primary-100">
       <Image
-        width="60"
-        height="60"
+        layout="fill"
+        alt={project.image}
         src={project.image}
         key={project.id}
-        className="w-full filter grayscale hover:grayscale-0 h-60 rounded-2xl shadow-lg object-contain bg-primary-100"
+        className="rounded-2xl"
       />
+       </div>
     ) : (
-      <img
+      <div className=" w-full filter grayscale hover:grayscale-0 col-span-2 rounded-2xl shadow-lg object-cover bg-primary-100">
+      <Image
+        alt={project.image}
+        layout="fill"
         src={project.image}
         key={project.id}
-        className="w-full h-60  filter grayscale hover:grayscale-0 col-span-2 rounded-2xl shadow-lg object-cover bg-primary-100"
-      ></img>
+        className="rounded-2xl"
+
+      />
+      </div>
     )
   );
   return (
