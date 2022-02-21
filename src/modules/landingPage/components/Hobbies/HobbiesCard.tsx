@@ -3,8 +3,8 @@ type HobbiesCardProps = {
     children: JSX.Element;
 };
 export const HobbiesCard = ({ title, children }: HobbiesCardProps) => (
-    <div className="item-center flex h-32 flex-col justify-center">
+    <div className="item-center flex h-28 flex-col items-center justify-between">
         {children}
-        <p className="pt-1 font-light">{title}</p>
+        <p className="font-light">{title}</p>
     </div>
 );
