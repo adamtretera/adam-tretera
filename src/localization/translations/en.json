@@ -3,7 +3,7 @@
     "navbar.about": "About",
     "navbar.blog": "Blog",
     "navbar.home": "Home",
-    "hero.title": "I am very excited web developer who does what he enjoys.",
+    "hero.title": "Maybe an overly enthusiastic software developer who does what he enjoys.",
     "hero.subTitle": "I work with modern technologies, but when needed, I like to learn new things.",
     "hero.sayHi": "Hi, it's me Adam",
     "projects.title": "Curently working on?",
@@ -16,7 +16,8 @@
     "hobbies.firebase": "Firebase",
     "hobbies.react": "React",
     "hobbies.tailwind": "Tailwind",
-    "about.subTitle": "I'm a student of Unicorn University, I like to create web apps, I'm enthusiastic about new technologies and I like to discover new ways to do something better. My goal is to make all my creations fast, secure and modern. After a perfect job is done, I'd love to chat with you about anything from the IT world and in general.",
+    "about.title": "About me",
+    "about.subTitle": "I'm a student and software developer, currently allocated at Ackee. My passion is to create web apps. I'm enthusiast about new technologies,  new ways to do things better and meet some new friends along with that. My goal is to make all my creations fast, secure and modern. After a perfectly done job, I'd love to chat with you about anything from the IT world in general or the topic you have in mind :)",
     "page.copyright": "Copyright © 2021 Adam Tretera. All rights reserved.",
     "page.name": "Adam Tretera",
     "page.logo": "Adam Tretera."
