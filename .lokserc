@@ -1,0 +1,13 @@
+{
+    "sheetId": "1SVXlbFbeQZD6cD7kFoslJI__3JUYGBOnps4fCmP9QXY",
+    "dir": "src/localization/translations",
+    "languages": [
+        "cs",
+        "en"
+    ],
+    "column": "key_web",
+    "format": "json",
+    "sheets": [
+        "Web translations"
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "navbar.projects": "Projects",
+    "navbar.about": "About",
+    "navbar.blog": "Blog",
+    "navbar.home": "Home",
+    "hero.title": "I am very excited web developer who does what he enjoys.",
+    "hero.subTitle": "I work with modern technologies, but when needed, I like to learn new things.",
+    "projects.title": "Curently working on?",
+    "projects.github.text": "Or even better checkout my Github",
+    "hobbies.title": "What do I enjoy?",
+    "hobbies.subTitle": "Being a modern technology enthusiast for me, I'm especially known for constantly learning something new. My favorites in development at the moment are mainly - React (Next.JS) and Firebase, and if you're interested in more - you can find my whole stack here.",
+    "hobbies.html": "HTML5",
+    "hobbies.next": "NEXT.JS",
+    "hobbies.vercel": "Vercel",
+    "hobbies.firebase": "Firebase",
+    "hobbies.react": "React",
+    "hobbies.tailwind": "Tailwind",
+    "about.subTitle": "I'm a student of Unicorn University, I like to create web apps, I'm enthusiastic about new technologies and I like to discover new ways to do something better. My goal is to make all my creations fast, secure and modern. After a perfect job is done, I'd love to chat with you about anything from the IT world and in general.",
+    "page.copyright": "Copyright © 2021 Adam Tretera. All rights reserved.",
+    "page.name": "Adam Tretera",
+    "page.logo": "Adam Tretera."
+}
