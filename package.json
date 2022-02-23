@@ -1,36 +1,43 @@
 {
-  "name": "my-app",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start"
-  },
-  "dependencies": {
-    "@headlessui/react": "^1.3.0",
-    "@heroicons/react": "^1.0.1",
-    "classnames": "^2.3.1",
-    "date-fns": "^2.22.1",
-    "gray-matter": "^4.0.2",
-    "next": "@latest",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "react-fetch-hook": "^1.8.5",
-    "react-hook-form": "^7.8.3",
-    "react-icons": "^4.2.0",
-    "react-transition-group": "^4.4.1"
-  },
-  "devDependencies": {
-    "@tailwindcss/typography": "^0.4.0",
-    "@types/node": "^14.14.33",
-    "@types/react": "^17.0.3",
-    "autoprefixer": "^10.2.6",
-    "html-webpack-plugin": "^5.5.0",
-    "next-themes": "0.0.12",
-    "postcss": "^8.3.2",
-    "prettier": "^2.2.1",
-    "tailwindcss": "^2.1.4",
-    "typescript": "^4.2.3"
-  }
+    "name": "my-app",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start",
+        "check-circular-modules": "madge --circular src"
+    },
+    "dependencies": {
+        "@headlessui/react": "^1.3.0",
+        "@heroicons/react": "^1.0.1",
+        "classnames": "^2.3.1",
+        "date-fns": "^2.22.1",
+        "gray-matter": "^4.0.2",
+        "lokse": "^2.1.4",
+        "madge": "^5.0.1",
+        "next": "@latest",
+        "prettier-config-ackee": "^0.0.15",
+        "react": "^17.0.2",
+        "react-dom": "^17.0.2",
+        "react-fetch-hook": "^1.8.5",
+        "react-hook-form": "^7.8.3",
+        "react-icons": "^4.2.0",
+        "react-intl": "^5.24.6",
+        "react-transition-group": "^4.4.1",
+        "sharp": "^0.29.2"
+    },
+    "devDependencies": {
+        "@tailwindcss/typography": "^0.4.0",
+        "@types/node": "^14.14.33",
+        "@types/react": "^17.0.3",
+        "autoprefixer": "^10.2.6",
+        "html-webpack-plugin": "^5.5.0",
+        "next-themes": "0.0.12",
+        "postcss": "^8.3.2",
+        "prettier": "^2.5.1",
+        "prettier-plugin-tailwindcss": "^0.1.7",
+        "tailwindcss": "@latest",
+        "typescript": "^4.2.3"
+    }
 }
