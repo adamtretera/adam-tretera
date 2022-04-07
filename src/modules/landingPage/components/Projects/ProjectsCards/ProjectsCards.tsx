@@ -6,9 +6,9 @@ export function ProjectsCards() {
         project.id % 3 === 0 || project.id % 4 === 0 ? (
             <div
                 key={project.id}
-                className="static h-56 w-full rounded-2xl  bg-primary-100 object-contain shadow-lg grayscale filter transition delay-150 ease-in-out hover:grayscale-0"
+                className="relative h-56 w-full rounded-2xl  bg-primary-100 object-contain shadow-lg grayscale filter transition delay-150 ease-in-out hover:grayscale-0"
             >
-                <Image layout="fill" alt={project.image} src={project.image} className="rounded-2xl" />
+                <Image alt={project.image} layout="fill" src={project.image} className="rounded-2xl" />
             </div>
         ) : (
             <div
