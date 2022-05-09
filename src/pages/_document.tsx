@@ -13,6 +13,11 @@ export default function Document() {
                 <link rel="mask-icon" href="images/safari-pinned-tab.svg" color="#5bbad5" />
                 <meta name="msapplication-TileColor" content="#da532c" />
                 <meta name="theme-color" content="#ffffff" />
+                <title>It's me Adam</title>
+                <meta
+                    name="description"
+                    content="I'm a software developer based in Prague, Czech Republic. I'm a self-taught developer with a passion for creating clean and intuitive interfaces."
+                />
             </Head>
 
             <body className="bg-text.primary-0 text-dark-0  dark:bg-dark-0 dark:text-primary-0">

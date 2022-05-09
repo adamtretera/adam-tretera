@@ -14,6 +14,7 @@ export function Footer() {
             <div className="flex gap-3">
                 <a href="https://github.com/adamtretera">
                     <svg
+                        aria-label="Github"
                         enableBackground="new 0 0 32 32"
                         id="Layer_1"
                         version="1.0"
@@ -37,6 +38,7 @@ export function Footer() {
                 </a>
                 <a href="https://www.linkedin.com/in/adam-tretera/">
                     <svg
+                        aria-label="Linkedin"
                         viewBox="0 0 512 512"
                         width="43"
                         height="43"

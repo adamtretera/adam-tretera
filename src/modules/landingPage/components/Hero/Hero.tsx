@@ -21,8 +21,8 @@ export function Hero() {
                             className="w-12 rounded-full border-2 border-black"
                             src="/images/profile.jpeg"
                             alt="Adam Tretera - frontend developer"
-                            height="60"
-                            width="60"
+                            height="120"
+                            width="120"
                         />
                     </div>
                 </div>

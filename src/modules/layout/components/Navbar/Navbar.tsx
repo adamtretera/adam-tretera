@@ -14,7 +14,7 @@ export function Navbar() {
                         <a href="/" className="hidden items-center justify-center font-normal sm:flex md:text-xl">
                             <FormattedMessage id="page.logo" />
                         </a>
-                        <a className="flex items-center justify-center text-xl font-normal sm:hidden">Adam Tretera.</a>
+                        <a href="/" className="flex items-center justify-center text-xl font-normal sm:hidden">Adam Tretera.</a>
                         <div className="flex items-center justify-center sm:items-stretch sm:justify-start "></div>
                     </div>
                 </>
