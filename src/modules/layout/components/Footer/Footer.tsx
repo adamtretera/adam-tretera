@@ -7,7 +7,7 @@ export function Footer() {
                 <li>
                     <FormattedMessage id="page.name" />
                 </li>
-                <li className="pt-2 font-light">
+                <li className=" pt-2 text-sm font-light">
                     <FormattedMessage id="page.copyright" />
                 </li>
             </ul>
