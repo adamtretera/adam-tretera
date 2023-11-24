@@ -10,7 +10,7 @@
   "projects.title" : "Curently working on?",
   "projects.github.text" : "Or even better checkout my Github",
   "hobbies.title" : "What do I enjoy?",
-  "hobbies.subTitle" : "Being a modern technology enthusiast for me, I'm especially known for constantly learning something new. My favorites in development at the moment are mainly - React (Next.JS) and Firebase, and if you're interested in more - you can find my whole stack here.",
+  "hobbies.subTitle" : "Being a modern technology enthusiast, I'm especially known for constantly learning something new. My favorites in development are at the moment mainly - React (Next.JS) and Firebase, however if you're interested in more - you can find my whole stack here.",
   "hobbies.html" : "HTML5",
   "hobbies.next" : "NEXT.JS",
   "hobbies.vercel" : "Vercel",
@@ -19,7 +19,7 @@
   "hobbies.tailwind" : "Tailwind",
   "about.title" : "About me",
   "about.subTitle" : "I am a full-stack developer that can be relied on, which means that I am able to provide you with a solution from the beginning to the end (launching the application). I currently work at a great company and with a great team Ackee and I also teach a high school seminar.",
-  "page.copyright" : "Copyright © 2021 Adam Tretera. All rights reserved.",
+  "page.copyright" : "Copyright © 2023 Adam Tretera. All rights reserved.",
   "page.name" : "Adam Tretera",
   "page.logo" : "Adam Tretera."
 }
